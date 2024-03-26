@@ -1,0 +1,16 @@
+.home-page-container{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center ;
+    padding: 10vw;
+}
+
+.home-page-photo img{
+    width: 250px;
+    padding: 10px;
+}
+
+.home-page-text-about-me{
+    text-align: left;
+}
