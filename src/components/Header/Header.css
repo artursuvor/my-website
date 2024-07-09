@@ -1,20 +1,43 @@
-header{
-    background-color: blue;
+header {
+    user-select: none; 
 }
-.header-container{
+
+.header-container {
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 10px;
-    background-color: rgb(255, 168, 168);
+    transition: background-color 0.3s ease, color 0.3s ease;
+    background-color: #ffffff; 
 }
 
-.header-container a{
+.header-container.dark-mode{
+    background-color: #1a1a1a; 
+}
+
+.header-container.dark-mode a{
+    color: #ffffff; 
+}
+
+.header-container a {
     padding: 15px;
     margin: 15px;
-    background-color: red;
+    font-size: 18px;
+    color: #000000; 
+    text-decoration: none; 
+    transition: color 0.3s ease;
 }
 
-.header-switcher{
-    background-color: aquamarine;
+.header-switcher {
+    position: absolute;
+    display: flex;
+    right: 10%;
+    top: 2%;
+    font-size: 40px;
+}
+
+.header-switcher p {
+    margin: 0;
+    padding: 10px;
+    cursor: pointer; 
 }

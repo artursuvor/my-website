@@ -8,13 +8,19 @@ const Main: React.FC = () => {
         <img src='/img/me.png' alt='me'/>
       </div>
       <div className='home-page-text-about-me'>
-        <p>Hi, I'm <span className='home-page-text -name'>Artur</span></p>
-        <p>Front-end developer</p>
-        <p className='home-text-tg'>mail: <a href="">artursuvor@gmail.com</a></p>
+        <p>Hi, I'm <span className='home-page-text-name'>Artur</span></p>
+        <p>Web developer</p>
+        <p className='home-text-tg'>Mail: <a href="mailto:artursuvor@gmail.com">artursuvor@gmail.com</a></p>
         <div className='home-text-link-img-container'>
-          <img src="/img/gh.png" alt="github" className='github'/>
-          <img src="/img/tg.png" alt="telegram" className='telegram'/>
-          <img src="/img/ln.png" alt="linkedin" className='linkedin'/>
+          <a href="https://github.com/artursuvor">
+            <img src="/img/gh.png" alt="github" className='github'/>
+          </a>
+          <a href="https://t.me/krakozyabrra">
+            <img src="/img/tg.png" alt="telegram" className='telegram'/>
+          </a>
+          <a href="https://www.linkedin.com/in/artursuvor">
+            <img src="/img/ln.png" alt="linkedin" className='linkedin'/>
+          </a>
         </div>
       </div>
     </div>

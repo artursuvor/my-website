@@ -1,4 +1,14 @@
-footer{
-    padding: 1vw;
-    background-color: bisque;
+footer {
+    padding: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.footer-dark-mode {
+    background-color: #ffffff;
+    color: #000000; 
+}
+
+.footer-light-mode{
+    background-color: #1a1a1a; 
+    color: #ffffff; 
 }

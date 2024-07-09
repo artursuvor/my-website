@@ -1,24 +1,23 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React from 'react';
+import { Link } from 'react-router-dom';
+import { useTheme } from '../../ThemeContext.tsx';
 import './Header.css';
 
 const Header: React.FC = () => {
-    // const preference = window.matchMedia("(prefers-color-scheme: dark)").matches;
-    // const [isDark, setIsDark] = useLocalStorage("isDark", preference);
+    const { darkMode, toggleDarkMode } = useTheme();
 
     return (
         <header>
-            <div className="header-container">
+            <div className={`header-container ${darkMode ? "dark-mode" : ""}`}>
                 <Link to={`/`}>Home</Link>
                 <Link to={`/about`}>About me</Link>
                 <Link to={`/portfolio`}>Portfolio</Link>
-            </div> 
+            </div>
             <div className="header-switcher">
-                <p>1</p>
-                <p>2</p>
-            </div> 
+                <p onClick={toggleDarkMode}>{darkMode ? '🌜' : '🌞'}</p>
+            </div>
         </header>
-    );  
+    );
 };
 
 export default Header;

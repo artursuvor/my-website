@@ -1,16 +1,55 @@
-.home-page-container{
+.home-page-container {
     display: flex;
-    text-align: center;
     justify-content: center;
-    align-items: center ;
-    padding: 10vw;
+    align-items: center;
+    padding: 50px;
+    user-select: none; 
 }
 
-.home-page-photo img{
+.home-page-photo img {
     width: 250px;
-    padding: 10px;
+    border-radius: 50%; 
+    margin-bottom: 20px;
+    border: 5px solid #ddd; 
 }
 
 .home-page-text-about-me{
-    text-align: left;
+    margin: 20px;
+}
+
+.home-page-text-about-me p {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #333; 
+}
+
+.home-page-text-name {
+    font-weight: bold;
+    font-size: 24px;
+    color: #0073e6; 
+}
+
+.home-text-tg a {
+    color: #0073e6; 
+    text-decoration: none;
+}
+
+.home-text-tg a:hover {
+    text-decoration: underline; 
+}
+
+.home-text-link-img-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.home-text-link-img-container a img {
+    width: 60px; 
+    transition: transform 0.3s ease; 
+}
+
+.home-text-link-img-container a img:hover {
+    transform: scale(1.1); /* Увеличение иконки */
 }
