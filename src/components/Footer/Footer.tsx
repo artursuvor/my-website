@@ -7,7 +7,7 @@ const Footer: React.FC = () => {
 
     return (
         <footer className={darkMode ? "footer-light-mode" : "footer-dark-mode"}>
-            Artur Suvorkin © 2024
+            <p>Artur Suvorkin © 2024</p>
         </footer>
     );
 };

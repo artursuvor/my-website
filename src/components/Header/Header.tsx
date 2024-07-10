@@ -12,10 +12,11 @@ const Header: React.FC = () => {
                 <Link to={`/`}>Home</Link>
                 <Link to={`/about`}>About me</Link>
                 <Link to={`/portfolio`}>Portfolio</Link>
+                <div className="header-switcher">
+                    <p onClick={toggleDarkMode}>{darkMode ? '🌜' : '🌞'}</p>
+                </div>
             </div>
-            <div className="header-switcher">
-                <p onClick={toggleDarkMode}>{darkMode ? '🌜' : '🌞'}</p>
-            </div>
+            
         </header>
     );
 };
