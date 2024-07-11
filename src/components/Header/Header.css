@@ -19,11 +19,28 @@
     font-size: 18px;
     color: #000000;
     text-decoration: none;
-    transition: color 0.3s ease;
+    transition: color 0.3s ease, transform 0.3s ease;
+    border-bottom: 2px solid transparent;
 }
 
 .header-container.dark-mode a {
     color: #ffffff;
+}
+
+.header-container a:hover {
+    color: #007BFF;
+    transform: scale(1.1);
+    border-bottom: 2px solid #007BFF;
+}
+
+.header-container a.active {
+    color: #000000;
+    border-bottom: 2px solid #1a1a1a;
+}
+
+.header-container.dark-mode a.active {
+    color: #fff;
+    border-bottom: 2px solid #fff;
 }
 
 .header-switcher {
