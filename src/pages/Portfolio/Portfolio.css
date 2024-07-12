@@ -1,0 +1,81 @@
+/* Portfolio.css */
+
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+    background-color: #EFEFEF;
+    min-height: 100vh;
+}
+
+.portfolio.dark {
+    background-color: #333; 
+}
+    
+.project {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 100%;
+    text-decoration: none;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+  
+.project:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+  
+.project-photo {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+  
+.project-info {
+    padding: 10px 10px 0px 10px;
+    font-size: 24px;
+    font-weight: 100;
+    text-align: center;
+    background-color: #fff; 
+    color: #000; 
+}
+  
+.project-links {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.project-link {
+    text-decoration: none;
+    color: black; 
+    font-weight: bold;
+    transition: color 0.3s;
+    font-weight: 200;
+}
+
+.project-link:hover {
+    text-decoration: none;
+    color: #333; 
+}
+
+.portfolio.dark .project-info{
+    background-color: #1a1a1a; 
+    color: white;
+}
+
+.portfolio.dark .project-links{
+    background-color: #1a1a1a;
+}
+
+.portfolio.dark .project-link{
+    color: #fff;
+    font-weight: 200;
+}
