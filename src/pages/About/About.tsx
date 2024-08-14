@@ -140,6 +140,14 @@ const About: React.FC = () => {
               <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" title="React" alt="React" width="40" height="40" />&nbsp;
               <p>React</p>
             </div>
+            <div>
+              <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" title="redux" alt="redux" width="40" height="40" />&nbsp;
+              <p>React</p>
+            </div>
+            <div>
+              <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original-wordmark.svg" title="nextjs" alt="nextjs" width="40" height="40" />&nbsp;
+              <p>React</p>
+            </div>
         </div>
 
     </div>
