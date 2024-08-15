@@ -37,6 +37,12 @@ const Portfolio: React.FC = () => {
       photoUrl: "/img/projects/chel-podshipnik.png"
     },
     {
+      name: "Fake Eshop",
+      demoUrl: "",
+      repoUrl: "https://github.com/artursuvor/next-js-e-shop",
+      photoUrl: "/img/projects/fake-eshop.png"
+    },
+    {
       name: "Maro Project",
       demoUrl: "https://maro-project.vercel.app",
       repoUrl: "https://github.com/artursuvor/maro-project",
