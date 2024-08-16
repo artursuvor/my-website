@@ -38,7 +38,7 @@ const Portfolio: React.FC = () => {
     },
     {
       name: "Fake Eshop",
-      demoUrl: "",
+      demoUrl: "https://fake-eshop-nextjs.vercel.app/",
       repoUrl: "https://github.com/artursuvor/nextJS.e-shop",
       photoUrl: "/img/projects/fake-eshop.png"
     },
